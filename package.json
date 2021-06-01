@@ -1,0 +1,24 @@
+{
+  "name": "backendtest",
+  "version": "1.0.0",
+  "description": "Backend test project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Jezer Razuri Pichen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "nodemon": "^2.0.7"
+  }
+}
